@@ -130,7 +130,7 @@ st.markdown(" - ".join(info["scale"]))
 st.markdown("**Chords:**")
 st.markdown(" - ".join(info["chords"]))
 
-st.markdown("**Dominant Chords:**")
+st.markdown("**7<sup>th</sup> Chords:**", unsafe_allow_html=True)
 st.markdown(" - ".join(info["7th_chords"]))
 
 st.divider()
